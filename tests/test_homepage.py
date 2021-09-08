@@ -4,8 +4,16 @@
     to open and observe the home page
 
     As a user  
-    I want to open homepage 
+    I want to click SignUp button on the homepage 
     to start the signup process
+
+    As a user
+    I want to click SignIn button on the homepage
+    to start the signin process
+    
+    As a user
+    I want to enter search keyword on the homepage
+    to search for repos and browse search result
 """
 from pages.home import HomePage
 from pages.test_data.test_data import TestData
