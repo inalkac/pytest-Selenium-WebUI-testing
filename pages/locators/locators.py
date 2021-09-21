@@ -10,4 +10,8 @@ class Locators:
     SEARCH_TXTBOX = (By.XPATH, "//input[@data-test-selector = 'nav-search-input']")
 
     #Search page locators
+    SEARCH_RESULT = (By.XPATH, "//ul[@class = 'repo-list']/li")
+    SEARCH_RESULT_DESCRIPTION = (By.XPATH, "//p[@class = 'mb-1']")
+    SEARCH_RESULT_LINK = (By.XPATH, "//li[contains(@class, 'repo-list-item')]/div[2]/div/div/a")
+    SEARCH_FIELD = (By.NAME, "q")
     

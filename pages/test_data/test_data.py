@@ -11,3 +11,6 @@ class TestData():
     SIGNUP_PAGE_URL = f"https://github.com/signup?user_email={NEW_USER_EMAIL}&source=form-home-signup"
     SEARCH_KWD = "pytest"
     SEARCH_PAGE_URL = "https://github.com/search?q="
+
+    #SearchPage
+    SEARCHPAGE_TITLE = f"Search · {SEARCH_KWD} · GitHub"

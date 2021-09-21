@@ -2,7 +2,7 @@
     Homepage class. Inherited from the BasePage class
 """
 from pages.base_page import BasePage
-import time
+
 class HomePage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
